@@ -1,4 +1,8 @@
 1.9
+ * Fix a crash when zcrypt fails -andersk@mit.edu
+ * Make :loadsubs reload instanced personals too -davidben@mit.edu
+ * Make Perl zephyr_zwrite call die() when it fails -jgross@mit.edu
+ * Replace outgoing zephyr default format with a small URL -geofft@mit.edu
  * Add getnumlines() to perl interface -asedeno@mit.edu
  * Include names of invalid filters on filter errors -adehnert@mit.edu
  * Don't incorrectly mark decryption failures as decrypted -davidben@mit.edu
